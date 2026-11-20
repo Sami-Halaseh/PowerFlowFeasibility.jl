@@ -1,0 +1,6 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+PowerFlowFeasibility = "3ff0b258-cd87-49a6-b3c5-f265870df164"
+
+[sources]
+PowerFlowFeasibility = {path = ".."}

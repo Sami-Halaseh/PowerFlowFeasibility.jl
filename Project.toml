@@ -1,13 +1,22 @@
 name = "PowerFlowFeasibility"
 uuid = "3ff0b258-cd87-49a6-b3c5-f265870df164"
-authors = ["Pierre Arvy", "Sami Halaseh", "Yassine Koubaa", "Luca Wellmeier"]
 version = "1.0.0-DEV"
+authors = ["Pierre Arvy", "Sami Halaseh", "Yassine Koubaa", "Luca Wellmeier"]
+
+[deps]
+DynamicPolynomials = "7c1d4256-1411-5781-91ec-d7bc3513ac07"
+Powsybl = "cc5d7637-2d3a-48eb-b6d4-9415154f8200"
 
 [compat]
-julia = "1.10.10"
+DynamicPolynomials = "0.7.0"
+Powsybl = "0.3.0"
+julia = "1.12"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
 test = ["Test"]
+
+[workspace]
+projects = ["docs"]
